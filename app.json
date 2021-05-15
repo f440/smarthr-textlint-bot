@@ -1,0 +1,14 @@
+{
+  "name": "Smarthr Textlint Bot",
+  "description": "文書校正ができるSlackbot",
+  "keywords": ["bot", "text", "slack"],
+  "addons": [],
+  "env": {
+    "SLACK_SIGNING_SECRET": {
+      "required": true
+    },
+    "SLACK_BOT_TOKEN": {
+      "required": true
+    }
+  }
+}

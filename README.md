@@ -52,6 +52,12 @@ curl -I -XPOST https://{your random subdomain here}.ngrok.io/slack/events # HTTP
 
 ### デプロイ方法
 
+#### ワンクリックデプロイ
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+#### 手動デプロイ
+
 * Heroku CLIをインストール、`heroku help`でインストールされているか確認
 * `heroku login`でログイン、`heroku auth:whoami`でログインできるているか確認
 * Herokuのデプロイ先を設定
@@ -61,7 +67,7 @@ curl -I -XPOST https://{your random subdomain here}.ngrok.io/slack/events # HTTP
 
 詳細な手順: https://slack.dev/bolt-js/ja-jp/deployments/heroku
 
-#### Heroku CLIをインストール
+### Heroku CLIをインストール
 
 ```
 brew install heroku/brew/heroku
